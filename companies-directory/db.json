@@ -1,0 +1,75 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Frontlines Media",
+      "location": "Hyderabad",
+      "industry": "EdTech",
+      "employees": 120,
+      "founded": 2018,
+      "website": "https://frontlinesmedia.in/"
+    },
+    {
+      "id": 2,
+      "name": "BlueStock Fintech",
+      "location": "Bengaluru",
+      "industry": "FinTech",
+      "employees": 40,
+      "founded": 2022,
+      "website": "https://bluestock.in/"
+    },
+    {
+      "id":3,
+      "name":"Amazon",
+      "location":"Bengaluru",
+      "industry":"E-commerce",
+      "employees":2000000,  
+      "founded":1994,
+      "website":"https://amazon.in/"
+    },{
+      "id":4,
+      "name":"Flipkart",
+      "location":"Bengaluru",
+      "industry":"E-commerce",
+      "employees":30000,  
+      "founded":2007,
+      "website":"https://flipkart.com/"
+    },
+{
+      "id":5,
+      "name":"Google",
+      "location":"Bengaluru",
+      "industry":"E-commerce",
+      "employees":200000,  
+      "founded":1998,
+      "website":"https://google.com/"
+    },
+    {
+      "id":6,
+      "name":"Nike",
+      "location":"Bengaluru",
+      "industry":"E-commerce",
+      "employees":50000,  
+      "founded":1964,
+      "website":"https://nike.com/"
+    },
+    {
+      "id":7,
+      "name":"Swiggy",
+      "location":"Bengaluru",
+      "industry":"E-commerce",
+      "employees":10000,  
+      "founded":2014,
+      "website":"https://swiggy.com/"
+    },
+    {
+      "id":8,
+      "name":"Zomato",
+      "location":"Bengaluru",
+      "industry":"E-commerce",
+      "employees":8000,  
+      "founded":2008,
+      "website":"https://zomato.com/"
+    }
+  ]
+}

@@ -6,13 +6,13 @@ export default function useFetch(url, deps = []) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
+   useEffect(() => {
     setLoading(true);
     axios.get(url)
       .then((res) => setData(res.data))
       .catch((err) => setError(err))
       .finally(() => setLoading(false));
-  }, deps);
+  }, [url, ...deps]); // FIXED: spread deps and include url
 
   return { data, loading, error };
 }
